@@ -1,7 +1,7 @@
-/*1 - Calcule a quantidade de litros de combustÌvel gasta em uma viagem, utilizando um automÛvel que faz 12 km por litro. Para obter o c·lculo, 
-o usu·rio deve fornecer o tempo gasto na viagem e a velocidade mÈdia. Desta forma, ser· possÌvel obter a dist‚ncia percorrida com a fÛrmula 
-DISTANCIA = TEMPO * VELOCIDADE. Tendo o valor da dist‚ncia, basta calcular a quantidade de litros de combustÌvel utilizada na viagem com a fÛrmula 
-LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade mÈdia, tempo gasto, dist‚ncia percorrida e quantidade de litros 
+/*1 - Calcule a quantidade de litros de combust√≠vel gasta em uma viagem, utilizando um autom√≥vel que faz 12 km por litro. Para obter o c√°lculo, 
+o usu√°rio deve fornecer o tempo gasto na viagem e a velocidade m√©dia. Desta forma, ser√° poss√≠vel obter a dist√¢ncia percorrida com a f√≥rmula 
+DISTANCIA = TEMPO * VELOCIDADE. Tendo o valor da dist√¢ncia, basta calcular a quantidade de litros de combust√≠vel utilizada na viagem com a f√≥rmula 
+LITROS_USADOS = DISTANCIA / 12. O programa deve apresentar os valores da velocidade m√©dia, tempo gasto, dist√¢ncia percorrida e quantidade de litros 
 utilizada na viagem.*/
 
 #include <iostream>
@@ -16,16 +16,13 @@ int main ()
 	std::cout << ("Velocidade: ");
 	std::cin >> velocidade;
 	
-	distancia = (tempo / 60) * velocidade;
-	litros_usados = distancia / tempo /60;
-	velocidade = distancia / (tempo / 60);
+	distancia = tempo * velocidade;
+	litros_usados = distancia / 12;
 	
-	std:: cout << ("Velocidade media:") << velocidade << " Km / h ";
-	 
-	std::cout << ("\nDistancia percorrida: ") << distancia << " Km ";
-	 
-	std:: cout << ("\nLitros ultilizados na viagem: ") << litros_usados << " L " ;
-			
-	
+	std::cout << ("Velocidade media:") << velocidade;
+	std::cout << ("\nTempo gasto na viagem: ") << tempo;
+	std::cout << ("\nDistancia percorrida: ") << distancia <<" km/h" ;
+	std::cout << ("\nLitros ultilizados na viagem: ") << litros_usados <<" l/t ";
+				
 	return 0;
 }
