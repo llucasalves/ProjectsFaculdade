@@ -1,4 +1,4 @@
-// 6 -Ler um valor inteiro qualquer positivo ou negativo e apresentar o número lido como um valor positivo.
+// 6 -Ler um valor inteiro qualquer positivo ou negativo e apresentar o nÃºmero lido como um valor positivo.
 
 #include <iostream>
 
@@ -10,7 +10,7 @@ int main (){
 	std::cin >> valor_int1;
 	
 	if (valor_int1 < 0){
-		valor_int1 *= - 1;
+		valor_int1 *= - 1
 	}
 	
 	std::cout << valor_int1 <<(" Positivo ");
