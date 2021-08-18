@@ -10,7 +10,7 @@ int main (){
 	std::cin >> valor_int1;
 	
 	if (valor_int1 < 0){
-		valor_int1 *= - 1
+		valor_int1 *= - 1;
 	}
 	
 	std::cout << valor_int1 <<(" Positivo ");
