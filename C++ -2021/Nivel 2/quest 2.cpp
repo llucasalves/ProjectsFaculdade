@@ -1,5 +1,5 @@
-/*2 -Ler uma temperatura em graus Celsius e exibi-la convertida em graus Fahrenheit. A fórmula de conversão a ser utilizada é F = ( 9 * C + 160 ) / 5, em 
-que a variável F representa a temperatura em graus Fahrenheit e a variável C a temperatura em graus Celsius.*/
+/*2 -Ler uma temperatura em graus Celsius e exibi-la convertida em graus Fahrenheit. A fÃ³rmula de conversÃ£o a ser utilizada Ã© F = ( 9 * C + 160 ) / 5, em 
+que a variÃ¡vel F representa a temperatura em graus Fahrenheit e a variÃ¡vel C a temperatura em graus Celsius.*/
 
 #include <iostream>
 
@@ -12,9 +12,7 @@ int main(){
 	
 	graus_f = (9 * graus_c + 160) / 5;
 	
-	std::cout << graus_c <<(" Graus Celsius: ");  
-	std::cout << graus_f <<(" Graus Fahrenheit: ");
-	
-		
+	std::cout << graus_f <<(" Temperatura ");
+			
 	return 0;
 }
